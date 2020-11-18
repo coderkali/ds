@@ -1,0 +1,14 @@
+
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ŠÆv8ïçŠÉİ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¶ÁéÑüÿÿÿÿ8ÖÙ‘Éİ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ŒŞœ™8îµ‹Éİ.
+U
+java:S1854"8Remove this useless assignment to local variable "size".(ù«Û8ÖÚáÊİ.
+F
+java:S1481")Remove this unused "size" local variable.(ù«Û8ÖÚáÊİ.
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ŠÆv8ïçŠÉİ.
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ŠÆv8ïçŠÉİ.
+y
+java:S2234"WParameters to tower have the same names but not the same order as the method arguments.(ÅÃÈøÿÿÿÿ8áƒàÊİ.
+y
+java:S2234"WParameters to tower have the same names but not the same order as the method arguments.(Ã’»¾ıÿÿÿÿ8œ—šÉİ.
