@@ -1,0 +1,14 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¤¢›úÿÿÿÿ8·ÜÓİ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿë‚”8‡¼§Óİ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿë‚”8Â†¬Óİ.
+d
+java:S2259F"BA "NullPointerException" could be thrown; "prev" is nullable here.(ÄÎ³ıÿÿÿÿ8‹ôùòİ.
+i
+java:S2259"GA "NullPointerException" could be thrown; "prev_node" is nullable here.(½â”§ıÿÿÿÿ8œÔ¨Óİ.
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(Åù¹¹ıÿÿÿÿ8Í§ñóİ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿë‚”8ı¥öÒİ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢œ¡ã8¡¹˜Óİ.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(•â äşÿÿÿÿ8¾ÀÌÓİ.
+Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8ãîğóİ.
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(Ç€¡¥8…˜ÎÓİ.

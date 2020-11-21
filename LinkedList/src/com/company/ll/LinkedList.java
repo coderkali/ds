@@ -43,9 +43,77 @@ public class LinkedList {
          }else{
              System.out.println("No Data Available Inside Linked List");
          }
+     }
 
+     public void deleteNodeById(int key){
+         Node temp = head;
+         Node prev = null;
+
+         //Case1
+
+         if(temp!=null && temp.data==key){
+             head = temp.next; //Instead of assign null
+             return;
+         }
+
+         //Case2
+         if(temp!=null && temp.data!=key){
+             prev = temp;
+             temp = temp.next;
+         }
+
+         //case 3
+         if(temp==null){
+             return;
+         }
+
+         prev.next = temp.next;
 
      }
 
 
+     public void deletAll(){
+         head = null;
+     }
+
+     public int getSize(){
+         int count = getNodeCount(head);
+         System.out.println(count);
+         int count1= getNodeCount();
+         System.out.println(count1);
+         return count;
+     }
+
+
+     private int getNodeCount(Node node){
+         if(node == null){
+             return 0;
+         }
+         return 1 + getNodeCount(node.next);
+     }
+
+     public Node reverseLinkedList(Node node){
+         Node prev = null;
+         Node current = node;
+         Node next = null;
+         while(current!=null){
+             next = current.next;
+             current.next = prev;
+
+             prev = current;
+             current = next;
+         }
+         node = prev;
+         return node;
+     }
+
+     private int getNodeCount(){
+         int i=1;
+         Node node = head;
+         while(node!=null && node.next!=null){
+             node = node.next;
+             i++;
+         }
+         return i;
+     }
 }

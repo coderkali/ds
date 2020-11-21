@@ -2,7 +2,7 @@ package com.company.ll;
 
 public class Node {
 
-      private int data;
+      public int data;
       public Node next;
 
       Node(int data) {

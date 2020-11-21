@@ -11,5 +11,9 @@ public class Main {
         linkedList.insertAtLast(2);
         linkedList.printLinkedList();
 
+        linkedList.getSize();
+
+        System.out.println(linkedList.reverseLinkedList(linkedList.head));
+
     }
 }
